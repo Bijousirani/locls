@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="border-block">border-block</p>
+    <p class="border-inline">border-inline</p>
+</body>
+<style>
+    p{
+        padding-inline: 24px;
+        padding-block: 32px;
+    }
+    .border-block{
+        border-block:4px solid #ff6a00;
+    }
+    .border-inline{
+        border-inline:4px solid #ff6a00;
+    }
+    body{
+        display:flex;
+        gap:24px;
+        justify-content:space-evenly;
+        align-items: center;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+</style>
+</html>
